@@ -4,17 +4,17 @@
 ─▄█▀█▄──▄███▄─
 ▐█░██████████▌
 ─██▒█████████─
-──▀████████▀──┊@UU_IV
+──▀████████▀──┊@ZU_XU
 
  ██  ██.                     ██
 ██.       ██.         ██.      ██
 ██.         ██.     ██.██ ██ ██
 ██.       ██.     ██.                ██
-██  ██.         ██.                     ██         │AJEX ﹏ @UU_IV
-│تم تطوير وبرمجة السورس من قبل سونيكᐂ .
+██  ██.         ██.                     ██         │THOR ﹏ @ZU_XU
+│تم تطوير وبرمجة السورس من قبل زيوس .
 ─────▀██▀─────
-┊AJEX ‿ @UU_IV
-┊@UU_IV ‿ @UU_IV
+┊THOR ‿ @ZU_XU
+┊@ZU_XU ‿ @ZU_XU
 #---------------------------------------------------------------------
 cd $(cd $(dirname $0); pwd)
  
@@ -32,14 +32,14 @@ if [ "$Version" == "18" ];then
 echo -e "${GREEN}
 
                     
-       ▇ @UU_IV   ▇                     ▄▇▄▄▄▄▄▇▄                            
-    ▄▇                                           ¦ Dev : @UU_IV
- ▄▇ ¦ Dev : @UU_IV                    
-                                                               ¦ Source AJEX BY @UU_IV
+       ▇ @ZU_XU   ▇                     ▄▇▄▄▄▄▄▇▄                            
+    ▄▇                                           ¦ Dev : @ZU_XU
+ ▄▇ ¦ Dev : @ZU_XU                    
+                                                               ¦ Source THOR BY @ZU_XU
 ----------------------------------------------------------------------${CNIL}"
 echo -e "${RED}| للاسف لايمكنك تنصيب السورس ع نظام اوبنتو {${Version}} يجب ان يكون على اصدار  اقل مثلا  ${SMAY}14 او 16
 ${CNIL}";
-echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source AJEX 
+echo -e "${RED}| Sorry Canot install Source on Ubuntu {${Version}} Please install system To Ubuntu ${SMAY}14 or 16 ${RED} For Run The Source THOR 
 ${CNIL}";
 exit;
 fi
