@@ -1175,7 +1175,7 @@ return sendMsg(msg.chat_id_,msg.id_,'⌯ **عذرا البوت ليس ادمن  
 else
 local lock_service = redis:get(ajex..'lock_service')
 if lock_service then 
-sendMsg(msg.chat_id_,msg.id_,'⌯ *تـم تـفـعـيـل الـمـجـمـوعـه .️ \n⌯ *وتم رفع جمـيع المشرفين ادمن .‏‏‏ \n @SourceThor')
+sendMsg(msg.chat_id_,msg.id_,'⌯ *تـم تـفـعـيـل الـمـجـمـوعـه .️ \n⌯ *وتم رفع جمـيع المشرفين ادمن .‏‏‏ \n [𝚂𝙾𝚄𝚁𝙲𝙴 𝚃𝙷𝙾𝚁](t.me/SourceThor')
 else
 sendMsg(msg.chat_id_,msg.id_,'⌯ تـم تـفـعـيـل الـمـجـمـوعـه‏‏ \n')
 end

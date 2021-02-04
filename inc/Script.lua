@@ -1209,7 +1209,7 @@ if redis:get(ajex.."getidstatus"..msg.chat_id_) == "Photo" then
 		}
 		ssssys = ali[math.random(#ali)]
 		if not redis:get("KLISH:ID") then
-		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'- ɴᴀᴍᴇ ➣  '..Namei..'    \n- ᴜѕᴇʀɴᴀᴍᴇ ➣ '..UserNameID..' .\n- ᴍѕɢѕ ➣   '..msgs..' .\n- ѕᴛᴀᴛѕ ➣ '..msg.TheRank..' .\n- ʏᴏᴜʀ ɪᴅ ➣ '..msg.sender_user_id_..' .\n- ᴄʜ ➣ @QZZZYQ .',dl_cb,nil)
+		sendPhoto(msg.chat_id_,msg.id_,data.photos_[0].sizes_[1].photo_.persistent_id_,'⋆ ɴᴀᴍᴇ ࿈  '..Namei..'    \n⋆ ᴜѕᴇʀɴᴀᴍᴇ ࿈ '..UserNameID..' .\n⋆ ᴍѕɢѕ ࿈   '..msgs..' .\n⋆ ѕᴛᴀᴛѕ ࿈ '..msg.TheRank..' .\n⋆ ʏᴏᴜʀ ɪᴅ ࿈ '..msg.sender_user_id_..' .\n',dl_cb,nil)
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1224,7 +1224,7 @@ if redis:get(ajex.."getidstatus"..msg.chat_id_) == "Photo" then
 		end
 	else
 		if not redis:get("KLISH:ID") then
-		sendMsg(msg.chat_id_,msg.id_,'•لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n- ɴᴀᴍᴇ ➣  '..Namei..'  \n- ᴜѕᴇʀɴᴀᴍᴇ ➣ '..UserNameID..' .\n- ᴍѕɢѕ ➣  '..msgs..' .\n- ѕᴛᴀᴛѕ ➣ '..msg.TheRank..' .\n- ʏᴏᴜʀ ɪᴅ ➣ '..msg.sender_user_id_..' .\n- ᴄʜ ➣ @QZZZYQ .')
+		sendMsg(msg.chat_id_,msg.id_,'•لا يمكنني عرض صورتك لانك قمت بحظر البوت او انك لاتملك صوره في بروفيلك ...!\n⋆ ɴᴀᴍᴇ ࿈  '..Namei..'  \n⋆ ᴜѕᴇʀɴᴀᴍᴇ ࿈ '..UserNameID..' .\n⋆ ᴍѕɢѕ ࿈  '..msgs..' .\n⋆ ѕᴛᴀᴛѕ ࿈ '..msg.TheRank..' .\n⋆ ʏᴏᴜʀ ɪᴅ ࿈ '..msg.sender_user_id_..' .\n')
 		else
 		Text = redis:get("KLISH:ID")
 		Text = Text:gsub('IDGET',msg.sender_user_id_)
@@ -1251,7 +1251,7 @@ else
 		Text = Text:gsub('User_Points',nko)
 		sendMsg(msg.chat_id_,msg.id_,Flter_Markdown(Text))
 		else
-		sendMsg(msg.chat_id_,msg.id_,'•الايدي بالصوره معطل \n•- ɴᴀᴍᴇ ➣  '..Namei..'    \n- ᴜѕᴇʀɴᴀᴍᴇ ➣'..UserNameID..' .\n- ᴍѕɢѕ ➣ '..msgs..' .\n- ѕᴛᴀᴛѕ ➣ '..msg.TheRank..' .\n- ʏᴏᴜʀ ɪᴅ ➣ '..msg.sender_user_id_..' .\n- ᴄʜ ➣ @diva_Cy .')
+		sendMsg(msg.chat_id_,msg.id_,'•الايدي بالصوره معطل \n⋆ ɴᴀᴍᴇ ࿈  '..Namei..'    \n⋆ ᴜѕᴇʀɴᴀᴍᴇ ࿈ '..UserNameID..' .\n⋆ ᴍѕɢѕ ࿈ '..msgs..' .\n ⋆ ѕᴛᴀᴛѕ ࿈ '..msg.TheRank..' .\n⋆ ʏᴏᴜʀ ɪᴅ ࿈ '..msg.sender_user_id_..' .\n')
 		end
 end
 
@@ -1858,7 +1858,7 @@ return false
 end
 
 if MsgText[1] == 'اصدار السورس' or MsgText[1] == 'الاصدار' then
-return '⌯ اصدار سورس اجـكـس : *v'..version..'* \n'
+return '⌯ اصدار سورس ثور : *v'..version..'* \n'
 end
 
 
@@ -2096,7 +2096,7 @@ return [[
 ⌯ ︙ م3 «» اوامر الحماية‌‏
 ⌯ ︙ م4 «» اوامر الخدمه 
 ⌯ ︙ م5 «»  اوامر المطور
-⌯ ︙ .[قـنـاه الـسـورس](t.me/diva_Cy)
+⌯ ︙ .[قـنـاه الـسـورس](t.me/Diva_Cy)
 ⌯ ︙ [ مـطـور الـسـورس ](t.me/ZU_XU)
 ܀⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤܀
 ⌯ ︙ ** لـلإسـتـفـسـار ↤︎ ]]..SUDO_USER
@@ -4071,34 +4071,34 @@ elseif Text:match(Bot_Name.."كيفك") then
   elseif Text=="ابي رابط الحذف" or Text=="ابي رابط حذف" or Text=="رابط حذف" or Text=="رابط الحذف" then
   return sendMsg(msg.chat_id_,msg.id_,[[
   ⌯ بوت حذف التليجرام 
-⌯ [أضغط هُنا](t.me/DTeLebot)
+⌯ [أضغط هُنا](t.me/DTeLebot) ➲↯
 ‏
   ]] )
   --=====================================
 elseif Text== "انا مين" or Text== "مين انا"  then
 if msg.SudoUser then  
-return sendMsg(msg.chat_id_,msg.id_,"[انت مطوري الغالي ♕](https://t.me/QZZZYQ) ")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مطوري الغالي ♕](https://t.me/diva_Cy) ")
 elseif msg.Creator then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه  تاج راسي♔](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه  تاج راسي♔](https://t.me/diva_Cy)")
 elseif msg.Director then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت مدير المجموعه๑](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مدير المجموعه๑](https://t.me/diva_Cy)")
 elseif msg.Admin then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت ادمن شد حيلك♘](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت ادمن شد حيلك♘](https://t.me/diva_Cy)")
 else 
-return sendMsg(msg.chat_id_,msg.id_,"[مجرد عضو هنا 𖦹](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[مجرد عضو هنا 𖦹](https://t.me/diva_Cy)")
 end 
 end 
 elseif Text== "مين ضافني" or Text== "منو ضافني"  then
 if msg.SudoUser then  
-return sendMsg(msg.chat_id_,msg.id_,"[انت مكانك كل مكان يا مطور♕](https://t.me/QZZZYQ) ")
+return sendMsg(msg.chat_id_,msg.id_,"[انت مكانك كل مكان يا مطور♕](https://t.me/diva_Cy) ")
 elseif msg.Creator then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت منشئ المجموعه](https://t.me/diva_Cy)")
 elseif msg.Director then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/diva_Cy)")
 elseif msg.Admin then 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/diva_Cy)")
 else 
-return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/QZZZYQ)")
+return sendMsg(msg.chat_id_,msg.id_,"[انت دخلت عبر الرابط](https://t.me/diva_Cy)")
 end
 
 
